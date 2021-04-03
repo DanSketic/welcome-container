@@ -1,6 +1,6 @@
 <?php
 
-use App\Containers\Welcome\UI\API\Controllers\Controller;
+use App\Modules\Welcome\UI\API\Controllers\Controller;
 use Illuminate\Support\Facades\Route;
 
 // http://api.apiato.test

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Containers\Welcome\Actions;
+namespace App\Modules\Welcome\Actions;
 
 use App\Ship\Parents\Actions\Action;
 
