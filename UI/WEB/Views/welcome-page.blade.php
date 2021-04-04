@@ -37,7 +37,7 @@
 
         .top-right {
             position: absolute;
-            right: 10px;
+            right: 18px;
             top: 18px;
         }
 
@@ -61,19 +61,58 @@
         }
 
         .m-b-md {
-            margin-bottom: 60px;
+            margin-bottom: 30px;
+        }
+
+        .button {
+            border: 1px solid #00bdf4;
+            width: 60px;
+            height: 30px;
+            border-radius: 5px;
+            color: #00bdf4;
+            background-color: white;
+            line-height: 30px;
+            font-size: 14px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            color: white;
+            background-color: #00bdf4;
+            cursor: pointer;
+        }
+
+        hr.rounded {
+            border-top: 1px solid #00bdf4;
+            border-radius: 50px;
         }
     </style>
 </head>
 <body>
 <div class="flex-center position-ref full-height">
     <div class="content">
+        @guest
+            <a href="{{ route('login') }}" class="top-right button">Login</a>
+        @endguest
+
+        @auth
+            <form id="form" action="{{  route('post_logout') }}" method="POST">@csrf</form>
+            <a class="top-right button" href="javascript:void(0)" onclick="document.getElementById('form').submit()">Logout</a>
+        @endauth
 
         <div class="title m-b-md">Apiato</div>
 
-        <div class="links">
+        <div class="links m-b-md">
             <a href="http://apiato.io/">Documentation</a>
             <a href="https://github.com/apiato/apiato">GitHub</a>
+        </div>
+
+        <hr class="rounded m-b-md">
+
+        <div class="links">
+            <a href="{{ route('public_docs') }}">Api Public Documentation</a>
+            <a href="{{ route('private_docs') }}">Api Private Documentation</a>
         </div>
     </div>
 </div>
