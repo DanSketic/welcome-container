@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Welcome\UI\WEB\Controllers;
+namespace App\Containers\VendorSection\Welcome\UI\WEB\Controllers;
 
 use App\Ship\Parents\Controllers\WebController;
 

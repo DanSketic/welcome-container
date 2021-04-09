@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Welcome\UI\API\Controllers;
+namespace App\Containers\VendorSection\Welcome\UI\API\Controllers;
 
 use Apiato\Core\Foundation\Facades\Apiato;
 use App\Ship\Parents\Controllers\ApiController;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Welcome\UI\CLI\Commands;
+namespace App\Containers\VendorSection\Welcome\UI\CLI\Commands;
 
 use App\Ship\Parents\Commands\ConsoleCommand;
 
