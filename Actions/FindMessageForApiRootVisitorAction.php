@@ -8,6 +8,6 @@ class FindMessageForApiRootVisitorAction extends Action
 {
     public function run(): array
     {
-        return [trans('welcome::messages.welcome')];
+        return ['Welcome to Apiato'];
     }
 }
