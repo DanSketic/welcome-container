@@ -12,13 +12,13 @@ class Controller extends ApiController
 {
 	public function apiRoot(): JsonResponse
 	{
-		$message = Apiato::call(FindMessageForApiRootVisitorAction::class);
+		$message = app(FindMessageForApiRootVisitorAction::class)->run();
 		return response()->json($message);
 	}
 
 	public function v1ApiLandingPage(): JsonResponse
 	{
-		$message = Apiato::call(FindMessageForApiV1VisitorAction::class);
+		$message = app(FindMessageForApiV1VisitorAction::class)->run();
 		return response()->json($message);
 	}
 }
