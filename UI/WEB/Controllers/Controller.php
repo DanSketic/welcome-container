@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Containers\VendorSection\Welcome\UI\WEB\Controllers;
+namespace App\Containers\Vendor\Welcome\UI\WEB\Controllers;
 
 use App\Ship\Parents\Controllers\WebController;
 
@@ -8,6 +8,6 @@ class Controller extends WebController
 {
 	public function sayWelcome()
 	{
-		return view('vendorSection@welcome::welcome-page');
+		return view('vendor@welcome::welcome-page');
 	}
 }

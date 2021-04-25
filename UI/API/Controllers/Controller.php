@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Containers\VendorSection\Welcome\UI\API\Controllers;
+namespace App\Containers\Vendor\Welcome\UI\API\Controllers;
 
 use Apiato\Core\Foundation\Facades\Apiato;
-use App\Containers\VendorSection\Welcome\Actions\FindMessageForApiRootVisitorAction;
-use App\Containers\VendorSection\Welcome\Actions\FindMessageForApiV1VisitorAction;
+use App\Containers\Vendor\Welcome\Actions\FindMessageForApiRootVisitorAction;
+use App\Containers\Vendor\Welcome\Actions\FindMessageForApiV1VisitorAction;
 use App\Ship\Parents\Controllers\ApiController;
 use Illuminate\Http\JsonResponse;
 
