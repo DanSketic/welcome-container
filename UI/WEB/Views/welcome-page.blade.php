@@ -96,7 +96,7 @@
             <a href="{{ route('login') }}" class="top-right button">Login</a>
         @endguest
 
-        @auth
+        @auth('web')
             <form id="form" action="{{  route('post_logout') }}" method="POST">@csrf</form>
             <a class="top-right button" href="javascript:void(0)" onclick="document.getElementById('form').submit()">Logout</a>
         @endauth
