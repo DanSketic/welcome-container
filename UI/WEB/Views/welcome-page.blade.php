@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Apiato</title>
+    <title>Prodarium</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -104,8 +104,8 @@
         <div class="title m-b-md">Apiato</div>
 
         <div class="links m-b-md">
-            <a href="http://apiato.io/">Documentation</a>
-            <a href="https://github.com/apiato/apiato">GitHub</a>
+            <a href="https://prodarium.com/">Documentation</a>
+            <a href="https://github.com/NightEagleStudios/Prodarium">GitHub</a>
         </div>
 
         <hr class="rounded m-b-md">
